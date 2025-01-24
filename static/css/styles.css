@@ -1,0 +1,80 @@
+/* General Styles */
+body.light {
+  background: linear-gradient(90deg, #74ebd5, #acb6e5);
+  color: #000000;
+}
+
+body.dark {
+  background: linear-gradient(90deg,#1a1a1a, #444444);
+  color: #e0e0e0;
+}
+
+.card {
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.card.light {
+  background-color: #ffffff;
+  border-color: #e0e0e0;
+}
+
+.card.dark {
+  background-color: #2a2a2a;
+  border-color: #444444;
+}
+
+textarea {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+textarea.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+textarea.dark {
+  background-color: #2a2a2a;
+  color: #e4dddd;
+}
+
+.play-icon {
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: #d85108;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.play-icon:hover {
+  color: #0056b3;
+  transform: scale(1.1);
+}
+
+.progress-bar {
+  background-color: #007bff;
+}
+
+body.dark .progress-bar {
+  background-color: #66c0f4;
+}
+
+/* Theme Toggle */
+#themeToggle {
+  cursor: pointer;
+}
+/* Style for Contact Us button */
+.contact-us-btn {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+  background-color: #17a2b8; /* Info color */
+  color: #ffffff;
+  border: none;
+}
+
+.contact-us-btn:hover {
+  background-color: #138496; /* Darker info color */
+  color: #f8f9fa; /* Light color */
+  transform: scale(1.1);
+}
